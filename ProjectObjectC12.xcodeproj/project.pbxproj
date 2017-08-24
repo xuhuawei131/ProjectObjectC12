@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7558A7251F4E7273008DCF19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A7241F4E7273008DCF19 /* main.m */; };
+		7558A72D1F4E73A2008DCF19 /* MyRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 7558A72C1F4E73A2008DCF19 /* MyRect.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		7558A7211F4E7273008DCF19 /* ProjectObjectC12 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectObjectC12; sourceTree = BUILT_PRODUCTS_DIR; };
 		7558A7241F4E7273008DCF19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7558A72B1F4E73A2008DCF19 /* MyRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRect.h; sourceTree = "<group>"; };
+		7558A72C1F4E73A2008DCF19 /* MyRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRect.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				7558A7241F4E7273008DCF19 /* main.m */,
+				7558A72B1F4E73A2008DCF19 /* MyRect.h */,
+				7558A72C1F4E73A2008DCF19 /* MyRect.m */,
 			);
 			path = ProjectObjectC12;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7558A7251F4E7273008DCF19 /* main.m in Sources */,
+				7558A72D1F4E73A2008DCF19 /* MyRect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
