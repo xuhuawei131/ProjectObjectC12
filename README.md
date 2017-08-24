@@ -18,3 +18,23 @@
 @property(nonatomic)int w,h;//即使在内部函数中使用 那么也必须要带对象 以及点 所以 就用self.x 了
 
 -(void)printRect;
+
+
+
+
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        MyRect* myRect=[[MyRect alloc]init];
+        
+        myRect.x=100;
+        myRect.y=200;
+        myRect.w=300;
+        myRect.h=400;
+        
+        myRect->pointX=100;
+        [myRect printRect];
+    
+        
+    }
+    return 0;
+}
