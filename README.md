@@ -23,7 +23,9 @@
 
 
 int main(int argc, const char * argv[]) {
+
     @autoreleasepool {
+    
         MyRect* myRect=[[MyRect alloc]init];
         
         myRect.x=100;
